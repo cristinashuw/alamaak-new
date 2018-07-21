@@ -1,0 +1,68 @@
+body {
+  height: 100%
+}
+
+.Navbar {
+  overflow: hidden;
+  background-color:	#1ab2ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  z-index: 9999;
+}
+
+.Navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 4px 13px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Nav-marge {
+  margin: 15px;
+
+}
+
+.Navbar a:hover {
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.logo {
+  float: left;
+}
+.centered {
+  position: absolute;
+  font-size: 3vw;
+  font-family: 'Raleway', sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.icon-style {
+  padding: 5px;
+}
+.our-style {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1vw;
+  text-align: center;
+  padding: 50px;
+}
+.form-style {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1vw;
+  text-align: center;
+}
+.why-us {
+  background-color: #f0f5f5;
+}
+iframe#tidio-chat-button-mobile{ bottom:4em !important; right: -0.5em !important; }
